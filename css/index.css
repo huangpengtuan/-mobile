@@ -1,0 +1,122 @@
+/*----------------------------------
+*  author��������
+*  time��2017
+*  01 ������ʽ
+*  02 header��ʽ
+*  03 index-canter��ʽ
+*  04 index-bottom��ʽ
+
+
+
+*====================================*/
+
+/*----------------------------------
+*  01 ������ʽ
+*====================================*/
+
+body{
+    min-width: 320px;
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/*----------------------------------
+*  02 header��ʽ
+*====================================*/
+header{
+    width: 100%;
+    padding: 20% 0 5% 0;
+    display: table;
+}
+.logo{
+    display: table-cell;
+    padding: 5% 0;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.logo img{
+    vertical-align: middle;
+}
+/*----------------------------------
+*  03 index-canter��ʽ
+*====================================*/
+section{
+    width: 100%;
+    padding: 5% 0;
+    display: table;
+}
+.index-center{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.index-center button{
+    width: 80%;
+    vertical-align: middle;
+    margin: 10px 0;
+
+}
+.index-center button a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/*----------------------------------
+*  04 index-bottom��ʽ
+*====================================*/
+footer{
+    width: 100%;
+    padding: 5% 0;
+    display: table;
+}
+.index-bottom{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.index-bottom div{
+    position: relative;
+}
+.index-bottom div:before{
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 1px solid #222222;
+    position: absolute;
+    top: 0.9rem;
+    left: 3.8rem;
+}
+.index-bottom div:after{
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 1px solid #222222;
+    position: absolute;
+    top: 0.9rem;
+    right: 3.8rem;
+}
+.index-bottom ul{
+    height: 49px;
+    padding: 0 15%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
+.index-bottom ul li{
+    float: left;
+    width: 33.333%;
+    height: 100%;
+}
+.index-bottom ul li a{
+    height: 100%;
+    font-size: 4rem;
+    line-height: 1.3;
+}
+.index-bottom ul li a:hover{
+    text-decoration: none;
+}

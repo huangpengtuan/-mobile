@@ -1,0 +1,139 @@
+/*----------------------------------
+*  author：黄鹏团
+*  time:2017
+*  01 公共样式
+*  02 注册界面头部header样式
+*  03 中部信息输入部分样式
+*  04 index-bottom��ʽ
+
+
+
+*====================================*/
+
+/*----------------------------------
+*  01 公共样式
+*====================================*/
+body{
+  	min-width: 320px;
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #efeff5;
+}
+
+/*----------------------------------
+*  02 注册界面头部header样式
+*====================================*/
+.register-header-top{
+	width: 100%;
+ 	height: 76px;
+ 	background-color: #50b4f9;
+ 	font-style: 1.2rem;
+	display: table;
+ 	text-align: center;
+ 	position: relative;
+ 	color: #F9F9F9;
+ 	.register-header-top span
+}
+.register-header-top h3{
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: 600;
+}
+.register-header-top span{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	margin-top: -8px;
+}
+.register-header-top span i{
+	font-size: 1rem;
+}
+.register-header-bottom{
+	height: 67px;
+	width: 100%;
+	padding: 15px;
+	line-height: 37px;
+	background-color: #efeff5;
+	color: #333333;
+}
+
+/*----------------------------------
+*  03 中部信息输入部分样式
+*====================================*/
+section {
+	background-color: #fff;
+}
+section form{
+	margin:0 15px;
+	
+}
+form div{
+	display: table;
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid #c2c3c5;
+	vertical-align: middle;
+	line-height: 55px;
+}
+form .register-center-icon i{
+	font-size: 1.8rem;
+	display: table-cell;
+	width: 40px;
+	vertical-align: middle;
+}
+form .passwords i{
+	font-size: 1.5rem;
+	padding-left: 0.2rem;
+
+}
+.yanzhengma button{
+	font-size: 0.5rem;
+}
+form div input{
+	border: none;
+	outline: none;
+}
+form div select{
+	width: 35%;
+	color: #333333;
+	height: 60%;
+	outline: none;
+}
+.work{
+	border-bottom: none;
+}
+/*----------------------------------
+*  04 注册页尾部样式
+*====================================*/
+footer {
+	width: 100%;
+	padding:0 15px;
+	vertical-align: middle;
+}
+.register-bottom{
+	height: 56px;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;	
+}
+.register-bottom-btn{
+	width: 100%;
+	display: table;
+	vertical-align: middle;	
+	text-align: center;
+}
+
+footer .btn{
+	width: 80%;
+	display: table-cell;
+	vertical-align: middle;
+ 	background-color: #50b4f9;
+ 	font-size: 1.3rem;
+}
+
+

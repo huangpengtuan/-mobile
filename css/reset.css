@@ -1,0 +1,231 @@
+/*----------------------------------
+*  01 reset����
+*  02 ����ͼ��
+*====================================*/
+
+
+
+
+/*----------------------------------
+*  01 reset
+*====================================*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-size: 16px;
+}
+@media only screen and (max-width:320px) {
+    body {
+        font-size: 12px;
+    }
+}
+article,aside,canvas,details,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+nav ,ul ,a{
+    list-style:none;
+}
+
+q {
+    quotes:none;
+}
+
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:middle;
+    background:transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+input,button{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background: none;
+}
+
+
+/*----------------------------------
+*  02 ����ͼ��
+*====================================*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?yxmzen');
+    src:  url('../fonts/icomoon.eot?yxmzen#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yxmzen') format('truetype'),
+    url('../fonts/icomoon.woff?yxmzen') format('woff'),
+    url('../fonts/icomoon.svg?yxmzen#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 3rem;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-password:before {
+  content: "\e902";
+}
+.icon-phone:before {
+  content: "\e904";
+}
+.icon-yanzhengma:before {
+  content: "\e900";
+}
+.icon-againpassword:before {
+  content: "\e901";
+}
+.icon-back:before {
+  content: "\e903";
+}
+.icon-QQ:before {
+  content: "\e90c";
+}
+.icon-weibo:before {
+  content: "\e90d";
+}
+.icon-weixin:before {
+  content: "\e90e";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

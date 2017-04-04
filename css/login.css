@@ -1,0 +1,211 @@
+/*----------------------------------
+*  author：黄鹏团
+*  time：2017
+*  01 公共样式
+*  02 登陆界面头部header样式
+*  03 login-canter输入框样式
+*  04 index-bottom样式
+
+
+
+*====================================*/
+
+/*----------------------------------
+*  01 公共样式
+*====================================*/
+body{
+    min-width: 320px;
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+/*----------------------------------
+*  02 登陆界面头部header样式
+*====================================*/
+header{
+    width: 100%;
+    padding: 20% 0 5% 0;
+    display: table;
+}
+.logo{
+    display: table-cell;
+    padding: 5% 0;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.logo img{
+    vertical-align: middle;
+}
+
+/*----------------------------------
+*  03 login-canter样式
+*====================================*/
+section{
+    width: 100%;
+    padding: 5% 0;
+}
+.login-center{
+    width: 100%;
+    display: table;
+}
+.login-center form{
+    display: table-cell;
+    width: 100%;
+    margin: 0 auto;
+}
+.login-center form div{
+    width: 80%;
+    height: 56px;
+    line-height: 56px;
+    border: 1px solid #c1c1c1;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 420px){
+    .login-center form div{
+        height: 45px;
+        line-height: 45px;
+    }
+}
+.login-center span{
+    padding-left: 10px;
+}
+.login-center input{
+    border: none;
+    outline:none;
+    width: 68%;
+}
+.login-center form .usename{
+    border-bottom: none;
+    -webkit-border-top-left-radius: 0.45em;
+    -webkit-border-top-right-radius: 0.45em;
+    -moz-border-radius-topleft: 0.45em;
+    -moz-border-radius-topright: 0.45em;
+    border-top-left-radius: 0.45em;
+    border-top-right-radius: 0.45em;
+}
+.login-center form .password{
+    -webkit-border-bottom-left-radius: 0.45em;
+    -webkit-border-bottom-right-radius: 0.45em;
+    -moz-border-radius-bottomleft: 0.45em;
+    -moz-border-radius-bottomright: 0.45em;
+    border-bottom-left-radius: 0.45em;
+    border-bottom-right-radius: 0.45em;
+}
+.login-center form .choose_box{
+    width: 80%;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 5%;
+}
+.login-center form .choose_box div{
+    width: 35%;
+    border: none;
+    float: left;
+    height: 56px;
+    vertical-align: middle;
+    line-height: 56px;
+}
+.login-center form .choose_box input{
+    width: 1rem;
+    height: 56px;
+    float: left;
+    margin: 0 0 0 5px;
+
+}
+.login-center form .choose_box span{
+    line-height: 56px;
+    float: left;
+    font-size: 0.8rem;
+    padding-left: 0;
+}
+.login-center form .choose_box a{
+    float: right;
+    padding-right:5px;
+    font-size: 0.8rem;
+}
+.login-center form .choose_box a:hover{
+    text-decoration: none;
+}
+.login-center form .ensure{
+    border: none;
+    text-align: center;
+}
+.ensure button{
+    width: 80%;
+}
+.ensure button a{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*----------------------------------
+*  04 index-bottom样式
+*====================================*/
+footer{
+    width: 100%;
+    padding: 5% 0;
+    display: table;
+}
+.index-bottom{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.index-bottom div{
+    position: relative;
+}
+.index-bottom div:before{
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 1px solid #222222;
+    position: absolute;
+    top: 0.9rem;
+    left: 3.8rem;
+}
+.index-bottom div:after{
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 1px solid #222222;
+    position: absolute;
+    top: 0.9rem;
+    right: 3.8rem;
+}
+.index-bottom ul{
+    height: 49px;
+    padding: 0 15%;
+    margin-top: 3rem;
+    vertical-align: middle;
+}
+.index-bottom ul li{
+    float: left;
+    width: 33.333%;
+    height: 100%;
+}
+.index-bottom ul li a{
+    height: 100%;
+    font-size: 4rem;
+    line-height: 1.3;
+}
+.index-bottom ul li a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

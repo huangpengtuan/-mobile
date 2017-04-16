@@ -4,7 +4,7 @@
 *  01 公共样式
 *  02 注册界面头部header样式
 *  03 中部信息输入部分样式
-*  04 index-bottom��ʽ
+*  04 注册页尾部样式
 
 
 
@@ -34,7 +34,6 @@ body{
  	text-align: center;
  	position: relative;
  	color: #F9F9F9;
- 	.register-header-top span
 }
 .register-header-top h3{
 	display: table-cell;

@@ -1,0 +1,54 @@
+<!---
+*  黄鹏团
+*  2017
+================================================== -->
+<!DOCTYPE html>
+<html ng-app="myapp">
+	<head lang="en">
+	    <!---
+	    *  网页基本设置
+	    ================================================== -->		
+		<meta charset="UTF-8">
+		<meta name="description" content="电影界面" />
+		<meta name="author" content="huangpengtuan"/>
+		<meta name="keywords" content="电影" />
+	    <!---
+	    *  移动端设置
+	    ================================================== -->	
+	    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+		<title>电影</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/movie.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="moive-header-top">
+				<h3>电影</h3>
+				<span><i class="icon-back"></i>返回</span>
+			</div>		
+		</header>
+		<section >
+			<div class="moive-show" ng-view ></div>
+		</section>
+		<footer ng-controller='movieapp'>
+			<ul class="moive-bottom">
+				<li><a href="#/in_theaters/1" ng-class="{active:type=='in_theaters'}">正在热映</a></li>
+				<li><a href="#/coming_soon/1" ng-class="{active:type=='coming_soon'}">即将上映</a></li>
+				<li><a href="#/top250/1" ng-class="{active:type=='top250'}">Top250</a></li>
+			</ul>
+		</footer>
+	</body>
+	<!--插件引入-->
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/angular.js" ></script>
+	<script type="text/javascript" src="js/angular-route.js" ></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js" ></script>
+	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js" ></script>
+	<!--自写得jsop跨域请求-->
+	<script type="text/javascript" src="js/http.js" ></script>
+	<!--主要js引入-->
+	<script type="text/javascript" src="js/movie.js" ></script>
+	<script type="text/javascript" src="moviecat/moviecat.js" ></script>
+	<script type="text/javascript" src="moviedetail/moviedetail.js"></script>
+</html>

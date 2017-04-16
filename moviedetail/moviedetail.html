@@ -1,0 +1,41 @@
+<!--加载动画-->
+<div class="spinner" ng-if='!loading'>
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+</div>
+<!--正文-->
+<div class="jumbotron" ng-if='loading'>
+	<div class="detailshow">
+		<a href="" class="detailshow-left">
+			<img ng-src="{{movie.images.large}}"/>
+		</a>  					
+		<div class="detailshow-right">
+			<h4><strong>片名：{{movie.title}}</strong></h4>
+			<p>导演：
+				<span ng-repeat="director in movie.directors">
+					{{director.name}}
+					<span ng-if="!$last">、</span>
+				</span>
+			</p>
+			<p>类型：
+				<span  ng-repeat="genres in movie.genres">
+					<span ng-bind='genres'></span>
+					<span ng-if="!$last">、</span>
+				</span>
+				
+			</p>
+			<p>主演：
+				<span ng-repeat="roles in movie.casts">
+					{{roles.name}}
+					<span ng-if="!$last">、</span>
+				</span>
+			</p>
+			<p>
+				上映年份：{{movie.year}}
+			</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<span>电影介绍：<span ng-bind='movie.summary'></span></span>
+</div>

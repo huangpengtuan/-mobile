@@ -70,6 +70,17 @@ a {
 a:hover{
     text-decoration: none;
 }
+a:link { 
+text-decoration: none; 
+} 
+a:visited { 
+text-decoration: none; 
+} 
+a:hover { 
+
+text-decoration: underline; 
+} 
+
 
 ins {
     background-color:#ff9;
@@ -116,7 +127,9 @@ input,button{
     list-style-type:none;
     background: none;
 }
-
+.clearfix{
+	clear: both;
+}
 
 /*----------------------------------
 *  02 ����ͼ��

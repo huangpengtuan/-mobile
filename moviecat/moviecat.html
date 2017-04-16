@@ -1,0 +1,27 @@
+<!--加载动画-->
+<div class="spinner" ng-if='!loading'>
+  <div class="bounce1"></div>
+  <div class="bounce2"></div>
+  <div class="bounce3"></div>
+</div>
+<!--正文-->
+<div  ng-if='loading' id="container">
+	<div class="jumbotron col-xs-6 item" ng-repeat="item in subjects" >
+		<div class="contentshow">
+			<a href="#/detail/{{item.id}}">
+				<img ng-src="{{item.images.large}}" alt=""/>
+			</a>  					
+			<p>
+				{{item.title}}<span>{{item.rating.average}}</span>
+			</p>
+		</div>
+	</div>
+	
+</div>
+	<!--上下页按钮-->
+<nav aria-label="..." ng-if='loading'>
+  <ul class="pager">
+    <li class="previous"><a ng-click='go(currentPage-1)'><span aria-hidden="true">&larr;</span> Older</a></li>
+    <li class="next"><a ng-click='go(currentPage+1)'>Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav>
